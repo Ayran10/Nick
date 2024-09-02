@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void Multiplode4() {
+    int numero;
+    cout << " Número inteiro: ";
+    cin >> numero;
+
+    if (numero % 4 == 0) {
+        cout << "O número " << numero << " é múltiplo de 4." << endl;
+    } else {
+        cout << "O número " << numero << " não é múltiplo de 4." << endl;
+    }
+}
+
+int main() {
+    Multiplode4();
+    return 0;
+}
